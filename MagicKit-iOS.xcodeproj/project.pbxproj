@@ -11,42 +11,46 @@
 		2AC1D40817D725ED00F383B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1D40617D725ED00F383B5 /* InfoPlist.strings */; };
 		2AC1D45C17D7264700F383B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC1D45B17D7264700F383B5 /* libz.dylib */; };
 		2AC1D45E17D7264B00F383B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC1D45D17D7264B00F383B5 /* MobileCoreServices.framework */; };
-		2AC1D49617D72B8A00F383B5 /* apprentice.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D46F17D72B8A00F383B5 /* apprentice.c */; };
-		2AC1D49717D72B8A00F383B5 /* apptype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47017D72B8A00F383B5 /* apptype.c */; };
-		2AC1D49817D72B8A00F383B5 /* ascmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47117D72B8A00F383B5 /* ascmagic.c */; };
-		2AC1D49917D72B8A00F383B5 /* asprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47217D72B8A00F383B5 /* asprintf.c */; };
-		2AC1D49B17D72B8A00F383B5 /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47417D72B8A00F383B5 /* cdf.c */; };
-		2AC1D49C17D72B8A00F383B5 /* cdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47517D72B8A00F383B5 /* cdf.h */; };
-		2AC1D49D17D72B8A00F383B5 /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47617D72B8A00F383B5 /* cdf_time.c */; };
-		2AC1D49E17D72B8A00F383B5 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47717D72B8A00F383B5 /* compress.c */; };
-		2AC1D49F17D72B8A00F383B5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47817D72B8A00F383B5 /* config.h */; };
-		2AC1D4A117D72B8A00F383B5 /* elfclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47A17D72B8A00F383B5 /* elfclass.h */; };
-		2AC1D4A217D72B8A00F383B5 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47B17D72B8A00F383B5 /* encoding.c */; };
-		2AC1D4A317D72B8A00F383B5 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47C17D72B8A00F383B5 /* file.c */; };
-		2AC1D4A417D72B8A00F383B5 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47D17D72B8A00F383B5 /* file.h */; };
-		2AC1D4A517D72B8A00F383B5 /* file_opts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47E17D72B8A00F383B5 /* file_opts.h */; };
-		2AC1D4A617D72B8A00F383B5 /* fsmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47F17D72B8A00F383B5 /* fsmagic.c */; };
-		2AC1D4A717D72B8A00F383B5 /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48017D72B8A00F383B5 /* funcs.c */; };
-		2AC1D4A817D72B8A00F383B5 /* getopt_long.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48117D72B8A00F383B5 /* getopt_long.c */; };
-		2AC1D4A917D72B8A00F383B5 /* is_tar.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48217D72B8A00F383B5 /* is_tar.c */; };
-		2AC1D4AA17D72B8A00F383B5 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48317D72B8A00F383B5 /* magic.c */; };
-		2AC1D4AB17D72B8A00F383B5 /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48417D72B8A00F383B5 /* magic.h */; };
-		2AC1D4AC17D72B8A00F383B5 /* magic.mgc in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1D48517D72B8A00F383B5 /* magic.mgc */; };
-		2AC1D4AD17D72B8A00F383B5 /* mygetopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48617D72B8A00F383B5 /* mygetopt.h */; };
-		2AC1D4AE17D72B8A00F383B5 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48717D72B8A00F383B5 /* print.c */; };
-		2AC1D4AF17D72B8A00F383B5 /* readcdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48817D72B8A00F383B5 /* readcdf.c */; };
-		2AC1D4B017D72B8A00F383B5 /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48917D72B8A00F383B5 /* readelf.c */; };
-		2AC1D4B117D72B8A00F383B5 /* readelf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48A17D72B8A00F383B5 /* readelf.h */; };
-		2AC1D4B217D72B8A00F383B5 /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48B17D72B8A00F383B5 /* softmagic.c */; };
-		2AC1D4B317D72B8A00F383B5 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48C17D72B8A00F383B5 /* strlcat.c */; };
-		2AC1D4B417D72B8A00F383B5 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48D17D72B8A00F383B5 /* strlcpy.c */; };
-		2AC1D4B517D72B8A00F383B5 /* tar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48E17D72B8A00F383B5 /* tar.h */; };
-		2AC1D4B617D72B8A00F383B5 /* vasprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48F17D72B8A00F383B5 /* vasprintf.c */; };
 		2AC1D4B717D72B8A00F383B5 /* GEMagicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49117D72B8A00F383B5 /* GEMagicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AC1D4B817D72B8A00F383B5 /* GEMagicKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D49217D72B8A00F383B5 /* GEMagicKit.m */; };
 		2AC1D4B917D72B8A00F383B5 /* GEMagicResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49317D72B8A00F383B5 /* GEMagicResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AC1D4BA17D72B8A00F383B5 /* GEMagicResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D49417D72B8A00F383B5 /* GEMagicResult.m */; };
 		2AC1D4BB17D72B8A00F383B5 /* MagicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49517D72B8A00F383B5 /* MagicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADC6C6E17D7467100EDB6A2 /* apprentice.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C4D17D7467100EDB6A2 /* apprentice.c */; };
+		2ADC6C6F17D7467100EDB6A2 /* apptype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C4E17D7467100EDB6A2 /* apptype.c */; };
+		2ADC6C7017D7467100EDB6A2 /* ascmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C4F17D7467100EDB6A2 /* ascmagic.c */; };
+		2ADC6C7117D7467100EDB6A2 /* asctime_r.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5017D7467100EDB6A2 /* asctime_r.c */; };
+		2ADC6C7217D7467100EDB6A2 /* asprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5117D7467100EDB6A2 /* asprintf.c */; };
+		2ADC6C7317D7467100EDB6A2 /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5217D7467100EDB6A2 /* cdf_time.c */; };
+		2ADC6C7417D7467100EDB6A2 /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5317D7467100EDB6A2 /* cdf.c */; };
+		2ADC6C7517D7467100EDB6A2 /* cdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C5417D7467100EDB6A2 /* cdf.h */; };
+		2ADC6C7617D7467100EDB6A2 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5517D7467100EDB6A2 /* compress.c */; };
+		2ADC6C7717D7467100EDB6A2 /* ctime_r.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5617D7467100EDB6A2 /* ctime_r.c */; };
+		2ADC6C7817D7467100EDB6A2 /* elfclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C5717D7467100EDB6A2 /* elfclass.h */; };
+		2ADC6C7917D7467100EDB6A2 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5817D7467100EDB6A2 /* encoding.c */; };
+		2ADC6C7A17D7467100EDB6A2 /* file_opts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C5917D7467100EDB6A2 /* file_opts.h */; };
+		2ADC6C7B17D7467100EDB6A2 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5A17D7467100EDB6A2 /* file.c */; };
+		2ADC6C7C17D7467100EDB6A2 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C5B17D7467100EDB6A2 /* file.h */; };
+		2ADC6C7D17D7467100EDB6A2 /* fsmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5C17D7467100EDB6A2 /* fsmagic.c */; };
+		2ADC6C7E17D7467100EDB6A2 /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5D17D7467100EDB6A2 /* funcs.c */; };
+		2ADC6C7F17D7467100EDB6A2 /* getline.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5E17D7467100EDB6A2 /* getline.c */; };
+		2ADC6C8017D7467100EDB6A2 /* getopt_long.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C5F17D7467100EDB6A2 /* getopt_long.c */; };
+		2ADC6C8117D7467100EDB6A2 /* is_tar.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6017D7467100EDB6A2 /* is_tar.c */; };
+		2ADC6C8217D7467100EDB6A2 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6117D7467100EDB6A2 /* magic.c */; };
+		2ADC6C8317D7467100EDB6A2 /* magic.mgc in Resources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6217D7467100EDB6A2 /* magic.mgc */; };
+		2ADC6C8417D7467100EDB6A2 /* mygetopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C6317D7467100EDB6A2 /* mygetopt.h */; };
+		2ADC6C8517D7467100EDB6A2 /* pread.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6417D7467100EDB6A2 /* pread.c */; };
+		2ADC6C8617D7467100EDB6A2 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6517D7467100EDB6A2 /* print.c */; };
+		2ADC6C8717D7467100EDB6A2 /* readcdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6617D7467100EDB6A2 /* readcdf.c */; };
+		2ADC6C8817D7467100EDB6A2 /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6717D7467100EDB6A2 /* readelf.c */; };
+		2ADC6C8917D7467100EDB6A2 /* readelf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C6817D7467100EDB6A2 /* readelf.h */; };
+		2ADC6C8A17D7467100EDB6A2 /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6917D7467100EDB6A2 /* softmagic.c */; };
+		2ADC6C8B17D7467100EDB6A2 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6A17D7467100EDB6A2 /* strlcat.c */; };
+		2ADC6C8C17D7467100EDB6A2 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6B17D7467100EDB6A2 /* strlcpy.c */; };
+		2ADC6C8D17D7467100EDB6A2 /* tar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C6C17D7467100EDB6A2 /* tar.h */; };
+		2ADC6C8E17D7467100EDB6A2 /* vasprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2ADC6C6D17D7467100EDB6A2 /* vasprintf.c */; };
+		2ADC6C9017D7468C00EDB6A2 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C8F17D7468C00EDB6A2 /* config.h */; };
+		2ADC6C9217D746AB00EDB6A2 /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADC6C9117D746AB00EDB6A2 /* magic.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,44 +61,46 @@
 		2AC1D40917D725ED00F383B5 /* MagicKit-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicKit-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		2AC1D45B17D7264700F383B5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2AC1D45D17D7264B00F383B5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		2AC1D46F17D72B8A00F383B5 /* apprentice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apprentice.c; sourceTree = "<group>"; };
-		2AC1D47017D72B8A00F383B5 /* apptype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apptype.c; sourceTree = "<group>"; };
-		2AC1D47117D72B8A00F383B5 /* ascmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ascmagic.c; sourceTree = "<group>"; };
-		2AC1D47217D72B8A00F383B5 /* asprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asprintf.c; sourceTree = "<group>"; };
-		2AC1D47317D72B8A00F383B5 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
-		2AC1D47417D72B8A00F383B5 /* cdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf.c; sourceTree = "<group>"; };
-		2AC1D47517D72B8A00F383B5 /* cdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdf.h; sourceTree = "<group>"; };
-		2AC1D47617D72B8A00F383B5 /* cdf_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf_time.c; sourceTree = "<group>"; };
-		2AC1D47717D72B8A00F383B5 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
-		2AC1D47817D72B8A00F383B5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
-		2AC1D47917D72B8A00F383B5 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
-		2AC1D47A17D72B8A00F383B5 /* elfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elfclass.h; sourceTree = "<group>"; };
-		2AC1D47B17D72B8A00F383B5 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
-		2AC1D47C17D72B8A00F383B5 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
-		2AC1D47D17D72B8A00F383B5 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
-		2AC1D47E17D72B8A00F383B5 /* file_opts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_opts.h; sourceTree = "<group>"; };
-		2AC1D47F17D72B8A00F383B5 /* fsmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsmagic.c; sourceTree = "<group>"; };
-		2AC1D48017D72B8A00F383B5 /* funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = funcs.c; sourceTree = "<group>"; };
-		2AC1D48117D72B8A00F383B5 /* getopt_long.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt_long.c; sourceTree = "<group>"; };
-		2AC1D48217D72B8A00F383B5 /* is_tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = is_tar.c; sourceTree = "<group>"; };
-		2AC1D48317D72B8A00F383B5 /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = magic.c; sourceTree = "<group>"; };
-		2AC1D48417D72B8A00F383B5 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
-		2AC1D48517D72B8A00F383B5 /* magic.mgc */ = {isa = PBXFileReference; lastKnownFileType = file; path = magic.mgc; sourceTree = "<group>"; };
-		2AC1D48617D72B8A00F383B5 /* mygetopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mygetopt.h; sourceTree = "<group>"; };
-		2AC1D48717D72B8A00F383B5 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
-		2AC1D48817D72B8A00F383B5 /* readcdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readcdf.c; sourceTree = "<group>"; };
-		2AC1D48917D72B8A00F383B5 /* readelf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readelf.c; sourceTree = "<group>"; };
-		2AC1D48A17D72B8A00F383B5 /* readelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readelf.h; sourceTree = "<group>"; };
-		2AC1D48B17D72B8A00F383B5 /* softmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = softmagic.c; sourceTree = "<group>"; };
-		2AC1D48C17D72B8A00F383B5 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcat.c; sourceTree = "<group>"; };
-		2AC1D48D17D72B8A00F383B5 /* strlcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcpy.c; sourceTree = "<group>"; };
-		2AC1D48E17D72B8A00F383B5 /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tar.h; sourceTree = "<group>"; };
-		2AC1D48F17D72B8A00F383B5 /* vasprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vasprintf.c; sourceTree = "<group>"; };
 		2AC1D49117D72B8A00F383B5 /* GEMagicKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEMagicKit.h; sourceTree = "<group>"; };
 		2AC1D49217D72B8A00F383B5 /* GEMagicKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEMagicKit.m; sourceTree = "<group>"; };
 		2AC1D49317D72B8A00F383B5 /* GEMagicResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEMagicResult.h; sourceTree = "<group>"; };
 		2AC1D49417D72B8A00F383B5 /* GEMagicResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEMagicResult.m; sourceTree = "<group>"; };
 		2AC1D49517D72B8A00F383B5 /* MagicKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicKit.h; sourceTree = SOURCE_ROOT; };
+		2ADC6C4D17D7467100EDB6A2 /* apprentice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apprentice.c; sourceTree = "<group>"; };
+		2ADC6C4E17D7467100EDB6A2 /* apptype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apptype.c; sourceTree = "<group>"; };
+		2ADC6C4F17D7467100EDB6A2 /* ascmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ascmagic.c; sourceTree = "<group>"; };
+		2ADC6C5017D7467100EDB6A2 /* asctime_r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asctime_r.c; sourceTree = "<group>"; };
+		2ADC6C5117D7467100EDB6A2 /* asprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asprintf.c; sourceTree = "<group>"; };
+		2ADC6C5217D7467100EDB6A2 /* cdf_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf_time.c; sourceTree = "<group>"; };
+		2ADC6C5317D7467100EDB6A2 /* cdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf.c; sourceTree = "<group>"; };
+		2ADC6C5417D7467100EDB6A2 /* cdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdf.h; sourceTree = "<group>"; };
+		2ADC6C5517D7467100EDB6A2 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		2ADC6C5617D7467100EDB6A2 /* ctime_r.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ctime_r.c; sourceTree = "<group>"; };
+		2ADC6C5717D7467100EDB6A2 /* elfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elfclass.h; sourceTree = "<group>"; };
+		2ADC6C5817D7467100EDB6A2 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		2ADC6C5917D7467100EDB6A2 /* file_opts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_opts.h; sourceTree = "<group>"; };
+		2ADC6C5A17D7467100EDB6A2 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		2ADC6C5B17D7467100EDB6A2 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		2ADC6C5C17D7467100EDB6A2 /* fsmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsmagic.c; sourceTree = "<group>"; };
+		2ADC6C5D17D7467100EDB6A2 /* funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = funcs.c; sourceTree = "<group>"; };
+		2ADC6C5E17D7467100EDB6A2 /* getline.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getline.c; sourceTree = "<group>"; };
+		2ADC6C5F17D7467100EDB6A2 /* getopt_long.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt_long.c; sourceTree = "<group>"; };
+		2ADC6C6017D7467100EDB6A2 /* is_tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = is_tar.c; sourceTree = "<group>"; };
+		2ADC6C6117D7467100EDB6A2 /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = magic.c; sourceTree = "<group>"; };
+		2ADC6C6217D7467100EDB6A2 /* magic.mgc */ = {isa = PBXFileReference; lastKnownFileType = file; path = magic.mgc; sourceTree = "<group>"; };
+		2ADC6C6317D7467100EDB6A2 /* mygetopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mygetopt.h; sourceTree = "<group>"; };
+		2ADC6C6417D7467100EDB6A2 /* pread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pread.c; sourceTree = "<group>"; };
+		2ADC6C6517D7467100EDB6A2 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		2ADC6C6617D7467100EDB6A2 /* readcdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readcdf.c; sourceTree = "<group>"; };
+		2ADC6C6717D7467100EDB6A2 /* readelf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readelf.c; sourceTree = "<group>"; };
+		2ADC6C6817D7467100EDB6A2 /* readelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readelf.h; sourceTree = "<group>"; };
+		2ADC6C6917D7467100EDB6A2 /* softmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = softmagic.c; sourceTree = "<group>"; };
+		2ADC6C6A17D7467100EDB6A2 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcat.c; sourceTree = "<group>"; };
+		2ADC6C6B17D7467100EDB6A2 /* strlcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcpy.c; sourceTree = "<group>"; };
+		2ADC6C6C17D7467100EDB6A2 /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tar.h; sourceTree = "<group>"; };
+		2ADC6C6D17D7467100EDB6A2 /* vasprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vasprintf.c; sourceTree = "<group>"; };
+		2ADC6C8F17D7468C00EDB6A2 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2ADC6C9117D746AB00EDB6A2 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,39 +168,41 @@
 		2AC1D46E17D72B8A00F383B5 /* libmagic */ = {
 			isa = PBXGroup;
 			children = (
-				2AC1D46F17D72B8A00F383B5 /* apprentice.c */,
-				2AC1D47017D72B8A00F383B5 /* apptype.c */,
-				2AC1D47117D72B8A00F383B5 /* ascmagic.c */,
-				2AC1D47217D72B8A00F383B5 /* asprintf.c */,
-				2AC1D47317D72B8A00F383B5 /* AUTHORS */,
-				2AC1D47417D72B8A00F383B5 /* cdf.c */,
-				2AC1D47517D72B8A00F383B5 /* cdf.h */,
-				2AC1D47617D72B8A00F383B5 /* cdf_time.c */,
-				2AC1D47717D72B8A00F383B5 /* compress.c */,
-				2AC1D47817D72B8A00F383B5 /* config.h */,
-				2AC1D47917D72B8A00F383B5 /* COPYING */,
-				2AC1D47A17D72B8A00F383B5 /* elfclass.h */,
-				2AC1D47B17D72B8A00F383B5 /* encoding.c */,
-				2AC1D47C17D72B8A00F383B5 /* file.c */,
-				2AC1D47D17D72B8A00F383B5 /* file.h */,
-				2AC1D47E17D72B8A00F383B5 /* file_opts.h */,
-				2AC1D47F17D72B8A00F383B5 /* fsmagic.c */,
-				2AC1D48017D72B8A00F383B5 /* funcs.c */,
-				2AC1D48117D72B8A00F383B5 /* getopt_long.c */,
-				2AC1D48217D72B8A00F383B5 /* is_tar.c */,
-				2AC1D48317D72B8A00F383B5 /* magic.c */,
-				2AC1D48417D72B8A00F383B5 /* magic.h */,
-				2AC1D48517D72B8A00F383B5 /* magic.mgc */,
-				2AC1D48617D72B8A00F383B5 /* mygetopt.h */,
-				2AC1D48717D72B8A00F383B5 /* print.c */,
-				2AC1D48817D72B8A00F383B5 /* readcdf.c */,
-				2AC1D48917D72B8A00F383B5 /* readelf.c */,
-				2AC1D48A17D72B8A00F383B5 /* readelf.h */,
-				2AC1D48B17D72B8A00F383B5 /* softmagic.c */,
-				2AC1D48C17D72B8A00F383B5 /* strlcat.c */,
-				2AC1D48D17D72B8A00F383B5 /* strlcpy.c */,
-				2AC1D48E17D72B8A00F383B5 /* tar.h */,
-				2AC1D48F17D72B8A00F383B5 /* vasprintf.c */,
+				2ADC6C9117D746AB00EDB6A2 /* magic.h */,
+				2ADC6C8F17D7468C00EDB6A2 /* config.h */,
+				2ADC6C4D17D7467100EDB6A2 /* apprentice.c */,
+				2ADC6C4E17D7467100EDB6A2 /* apptype.c */,
+				2ADC6C4F17D7467100EDB6A2 /* ascmagic.c */,
+				2ADC6C5017D7467100EDB6A2 /* asctime_r.c */,
+				2ADC6C5117D7467100EDB6A2 /* asprintf.c */,
+				2ADC6C5217D7467100EDB6A2 /* cdf_time.c */,
+				2ADC6C5317D7467100EDB6A2 /* cdf.c */,
+				2ADC6C5417D7467100EDB6A2 /* cdf.h */,
+				2ADC6C5517D7467100EDB6A2 /* compress.c */,
+				2ADC6C5617D7467100EDB6A2 /* ctime_r.c */,
+				2ADC6C5717D7467100EDB6A2 /* elfclass.h */,
+				2ADC6C5817D7467100EDB6A2 /* encoding.c */,
+				2ADC6C5917D7467100EDB6A2 /* file_opts.h */,
+				2ADC6C5A17D7467100EDB6A2 /* file.c */,
+				2ADC6C5B17D7467100EDB6A2 /* file.h */,
+				2ADC6C5C17D7467100EDB6A2 /* fsmagic.c */,
+				2ADC6C5D17D7467100EDB6A2 /* funcs.c */,
+				2ADC6C5E17D7467100EDB6A2 /* getline.c */,
+				2ADC6C5F17D7467100EDB6A2 /* getopt_long.c */,
+				2ADC6C6017D7467100EDB6A2 /* is_tar.c */,
+				2ADC6C6117D7467100EDB6A2 /* magic.c */,
+				2ADC6C6217D7467100EDB6A2 /* magic.mgc */,
+				2ADC6C6317D7467100EDB6A2 /* mygetopt.h */,
+				2ADC6C6417D7467100EDB6A2 /* pread.c */,
+				2ADC6C6517D7467100EDB6A2 /* print.c */,
+				2ADC6C6617D7467100EDB6A2 /* readcdf.c */,
+				2ADC6C6717D7467100EDB6A2 /* readelf.c */,
+				2ADC6C6817D7467100EDB6A2 /* readelf.h */,
+				2ADC6C6917D7467100EDB6A2 /* softmagic.c */,
+				2ADC6C6A17D7467100EDB6A2 /* strlcat.c */,
+				2ADC6C6B17D7467100EDB6A2 /* strlcpy.c */,
+				2ADC6C6C17D7467100EDB6A2 /* tar.h */,
+				2ADC6C6D17D7467100EDB6A2 /* vasprintf.c */,
 			);
 			path = libmagic;
 			sourceTree = SOURCE_ROOT;
@@ -220,15 +228,15 @@
 				2AC1D4BB17D72B8A00F383B5 /* MagicKit.h in Headers */,
 				2AC1D4B917D72B8A00F383B5 /* GEMagicResult.h in Headers */,
 				2AC1D4B717D72B8A00F383B5 /* GEMagicKit.h in Headers */,
-				2AC1D49C17D72B8A00F383B5 /* cdf.h in Headers */,
-				2AC1D49F17D72B8A00F383B5 /* config.h in Headers */,
-				2AC1D4A117D72B8A00F383B5 /* elfclass.h in Headers */,
-				2AC1D4A417D72B8A00F383B5 /* file.h in Headers */,
-				2AC1D4A517D72B8A00F383B5 /* file_opts.h in Headers */,
-				2AC1D4AB17D72B8A00F383B5 /* magic.h in Headers */,
-				2AC1D4AD17D72B8A00F383B5 /* mygetopt.h in Headers */,
-				2AC1D4B117D72B8A00F383B5 /* readelf.h in Headers */,
-				2AC1D4B517D72B8A00F383B5 /* tar.h in Headers */,
+				2ADC6C7517D7467100EDB6A2 /* cdf.h in Headers */,
+				2ADC6C7817D7467100EDB6A2 /* elfclass.h in Headers */,
+				2ADC6C7A17D7467100EDB6A2 /* file_opts.h in Headers */,
+				2ADC6C7C17D7467100EDB6A2 /* file.h in Headers */,
+				2ADC6C8417D7467100EDB6A2 /* mygetopt.h in Headers */,
+				2ADC6C8917D7467100EDB6A2 /* readelf.h in Headers */,
+				2ADC6C8D17D7467100EDB6A2 /* tar.h in Headers */,
+				2ADC6C9017D7468C00EDB6A2 /* config.h in Headers */,
+				2ADC6C9217D746AB00EDB6A2 /* magic.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC1D40817D725ED00F383B5 /* InfoPlist.strings in Resources */,
-				2AC1D4AC17D72B8A00F383B5 /* magic.mgc in Resources */,
+				2ADC6C8317D7467100EDB6A2 /* magic.mgc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,29 +349,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AC1D49617D72B8A00F383B5 /* apprentice.c in Sources */,
-				2AC1D49717D72B8A00F383B5 /* apptype.c in Sources */,
-				2AC1D49817D72B8A00F383B5 /* ascmagic.c in Sources */,
-				2AC1D49917D72B8A00F383B5 /* asprintf.c in Sources */,
-				2AC1D49B17D72B8A00F383B5 /* cdf.c in Sources */,
-				2AC1D49D17D72B8A00F383B5 /* cdf_time.c in Sources */,
-				2AC1D49E17D72B8A00F383B5 /* compress.c in Sources */,
-				2AC1D4A217D72B8A00F383B5 /* encoding.c in Sources */,
-				2AC1D4A317D72B8A00F383B5 /* file.c in Sources */,
-				2AC1D4A617D72B8A00F383B5 /* fsmagic.c in Sources */,
-				2AC1D4A717D72B8A00F383B5 /* funcs.c in Sources */,
-				2AC1D4A817D72B8A00F383B5 /* getopt_long.c in Sources */,
-				2AC1D4A917D72B8A00F383B5 /* is_tar.c in Sources */,
-				2AC1D4AA17D72B8A00F383B5 /* magic.c in Sources */,
-				2AC1D4AE17D72B8A00F383B5 /* print.c in Sources */,
-				2AC1D4AF17D72B8A00F383B5 /* readcdf.c in Sources */,
-				2AC1D4B017D72B8A00F383B5 /* readelf.c in Sources */,
-				2AC1D4B217D72B8A00F383B5 /* softmagic.c in Sources */,
-				2AC1D4B317D72B8A00F383B5 /* strlcat.c in Sources */,
-				2AC1D4B417D72B8A00F383B5 /* strlcpy.c in Sources */,
-				2AC1D4B617D72B8A00F383B5 /* vasprintf.c in Sources */,
 				2AC1D4B817D72B8A00F383B5 /* GEMagicKit.m in Sources */,
 				2AC1D4BA17D72B8A00F383B5 /* GEMagicResult.m in Sources */,
+				2ADC6C6E17D7467100EDB6A2 /* apprentice.c in Sources */,
+				2ADC6C6F17D7467100EDB6A2 /* apptype.c in Sources */,
+				2ADC6C7017D7467100EDB6A2 /* ascmagic.c in Sources */,
+				2ADC6C7117D7467100EDB6A2 /* asctime_r.c in Sources */,
+				2ADC6C7217D7467100EDB6A2 /* asprintf.c in Sources */,
+				2ADC6C7317D7467100EDB6A2 /* cdf_time.c in Sources */,
+				2ADC6C7417D7467100EDB6A2 /* cdf.c in Sources */,
+				2ADC6C7617D7467100EDB6A2 /* compress.c in Sources */,
+				2ADC6C7717D7467100EDB6A2 /* ctime_r.c in Sources */,
+				2ADC6C7917D7467100EDB6A2 /* encoding.c in Sources */,
+				2ADC6C7B17D7467100EDB6A2 /* file.c in Sources */,
+				2ADC6C7D17D7467100EDB6A2 /* fsmagic.c in Sources */,
+				2ADC6C7E17D7467100EDB6A2 /* funcs.c in Sources */,
+				2ADC6C7F17D7467100EDB6A2 /* getline.c in Sources */,
+				2ADC6C8017D7467100EDB6A2 /* getopt_long.c in Sources */,
+				2ADC6C8117D7467100EDB6A2 /* is_tar.c in Sources */,
+				2ADC6C8217D7467100EDB6A2 /* magic.c in Sources */,
+				2ADC6C8517D7467100EDB6A2 /* pread.c in Sources */,
+				2ADC6C8617D7467100EDB6A2 /* print.c in Sources */,
+				2ADC6C8717D7467100EDB6A2 /* readcdf.c in Sources */,
+				2ADC6C8817D7467100EDB6A2 /* readelf.c in Sources */,
+				2ADC6C8A17D7467100EDB6A2 /* softmagic.c in Sources */,
+				2ADC6C8B17D7467100EDB6A2 /* strlcat.c in Sources */,
+				2ADC6C8C17D7467100EDB6A2 /* strlcpy.c in Sources */,
+				2ADC6C8E17D7467100EDB6A2 /* vasprintf.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

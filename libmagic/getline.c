@@ -1,11 +1,11 @@
-/*	$NetBSD: getopt.h,v 1.8 2007/11/06 19:21:18 christos Exp $	*/
+/*	$NetBSD: fgetln.c,v 1.9 2008/04/29 06:53:03 martin Exp $	*/
 
 /*-
- * Copyright (c) 2000 The NetBSD Foundation, Inc.
+ * Copyright (c) 2011 The NetBSD Foundation, Inc.
  * All rights reserved.
  *
  * This code is derived from software contributed to The NetBSD Foundation
- * by Dieter Baron and Thomas Klausner.
+ * by Christos Zoulas.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions
@@ -15,13 +15,6 @@
  * 2. Redistributions in binary form must reproduce the above copyright
  *    notice, this list of conditions and the following disclaimer in the
  *    documentation and/or other materials provided with the distribution.
- * 3. All advertising materials mentioning features or use of this software
- *    must display the following acknowledgement:
- *        This product includes software developed by the NetBSD
- *        Foundation, Inc. and its contributors.
- * 4. Neither the name of The NetBSD Foundation nor the names of its
- *    contributors may be used to endorse or promote products derived
- *    from this software without specific prior written permission.
  *
  * THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS
  * ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
@@ -36,33 +29,72 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-#ifndef _GETOPT_H_
-#define _GETOPT_H_
-
+#include "file.h"
+#if !HAVE_GETLINE
+#include <stdlib.h>
+#include <stdio.h>
 #include <unistd.h>
+#include <errno.h>
+#include <string.h>
 
-/*
- * Gnu like getopt_long() and BSD4.4 getsubopt()/optreset extensions
- */
-#define no_argument        0
-#define required_argument  1
-#define optional_argument  2
+public ssize_t
+getdelim(char **buf, size_t *bufsiz, int delimiter, FILE *fp)
+{
+	char *ptr, *eptr;
 
-struct option {
-	/* name of long option */
-	const char *name;
-	/*
-	 * one of no_argument, required_argument, and optional_argument:
-	 * whether option takes an argument
-	 */
-	int has_arg;
-	/* if not NULL, set *flag to val when option found */
-	int *flag;
-	/* if flag not NULL, value to set *flag to; else return value */
-	int val;
-};
 
-int getopt_long(int, char * const *, const char *,
-    const struct option *, int *);
- 
-#endif /* !_GETOPT_H_ */
+	if (*buf == NULL || *bufsiz == 0) {
+		*bufsiz = BUFSIZ;
+		if ((*buf = malloc(*bufsiz)) == NULL)
+			return -1;
+	}
+
+	for (ptr = *buf, eptr = *buf + *bufsiz;;) {
+		int c = fgetc(fp);
+		if (c == -1) {
+			if (feof(fp))
+				return ptr == *buf ? -1 : ptr - *buf;
+			else
+				return -1;
+		}
+		*ptr++ = c;
+		if (c == delimiter) {
+			*ptr = '\0';
+			return ptr - *buf;
+		}
+		if (ptr + 2 >= eptr) {
+			char *nbuf;
+			size_t nbufsiz = *bufsiz * 2;
+			ssize_t d = ptr - *buf;
+			if ((nbuf = realloc(*buf, nbufsiz)) == NULL)
+				return -1;
+			*buf = nbuf;
+			*bufsiz = nbufsiz;
+			eptr = nbuf + nbufsiz;
+			ptr = nbuf + d;
+		}
+	}
+}
+
+ssize_t
+getline(char **buf, size_t *bufsiz, FILE *fp)
+{
+	return getdelim(buf, bufsiz, '\n', fp);
+}
+
+#endif
+
+#ifdef TEST
+int
+main(int argc, char *argv[])
+{
+	char *p = NULL;
+	ssize_t len;
+	size_t n = 0;
+
+	while ((len = getline(&p, &n, stdin)) != -1)
+		(void)printf("%zd %s", len, p);
+	free(p);
+	return 0;
+}
+#endif

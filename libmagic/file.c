@@ -32,7 +32,7 @@
 #include "file.h"
 
 #ifndef	lint
-FILE_RCSID("@(#)$File: file.c,v 1.145 2011/12/08 12:12:46 rrt Exp $")
+FILE_RCSID("@(#)$File: file.c,v 1.149 2013/01/07 18:20:19 christos Exp $")
 #endif	/* lint */
 
 #include "magic.h"
@@ -122,8 +122,8 @@ private const struct {
 private char *progname;		/* used throughout 		*/
 
 private void usage(void);
+private void docprint(const char *);
 private void help(void);
-int main(int, char *[]);
 
 private int unwrap(struct magic_set *, const char *);
 private int process(struct magic_set *ms, const char *, int);
@@ -252,7 +252,7 @@ main(int argc, char *argv[])
 			(void)fprintf(stdout, "%s-%s\n", progname, VERSION);
 			(void)fprintf(stdout, "magic file from %s\n",
 				       magicfile);
-			return 1;
+			return 0;
 		case 'z':
 			flags |= MAGIC_COMPRESS;
 			break;
@@ -275,6 +275,11 @@ main(int argc, char *argv[])
 	}
 	if (e)
 		return e;
+
+	if (MAGIC_VERSION != magic_version())
+		(void)fprintf(stderr, "%s: compiled magic version [%d] "
+		    "does not match with shared library magic version [%d]\n",
+		    progname, MAGIC_VERSION, magic_version());
 
 	switch(action) {
 	case FILE_CHECK:
@@ -437,7 +442,7 @@ process(struct magic_set *ms, const char *inname, int wid)
 	}
 }
 
-size_t
+protected size_t
 file_mbswidth(const char *s)
 {
 #if defined(HAVE_WCHAR_H) && defined(HAVE_MBRTOWC) && defined(HAVE_WCWIDTH)
@@ -479,6 +484,36 @@ usage(void)
 }
 
 private void
+docprint(const char *opts)
+{
+	size_t i;
+	int comma;
+	char *sp, *p;
+
+	p = strstr(opts, "%o");
+	if (p == NULL) {
+		fprintf(stdout, "%s", opts);
+		return;
+	}
+
+	for (sp = p - 1; sp > opts && *sp == ' '; sp--)
+		continue;
+
+	fprintf(stdout, "%.*s", (int)(p - opts), opts);
+
+	comma = 0;
+	for (i = 0; i < __arraycount(nv); i++) {
+		fprintf(stdout, "%s%s", comma++ ? ", " : "", nv[i].name);
+		if (i && i % 5 == 0) {
+			fprintf(stdout, ",\n%*s", (int)(p - sp - 1), "");
+			comma = 0;
+		}
+	}
+
+	fprintf(stdout, "%s", opts + (p - opts) + 2);
+}
+
+private void
 help(void)
 {
 	(void)fputs(
@@ -486,9 +521,11 @@ help(void)
 "Determine type of FILEs.\n"
 "\n", stdout);
 #define OPT(shortname, longname, opt, doc)      \
-	fprintf(stdout, "  -%c, --" longname doc, shortname);
+	fprintf(stdout, "  -%c, --" longname, shortname), \
+	docprint(doc);
 #define OPT_LONGONLY(longname, opt, doc)        \
-	fprintf(stdout, "      --" longname doc);
+	fprintf(stdout, "      --" longname),	\
+	docprint(doc);
 #include "file_opts.h"
 #undef OPT
 #undef OPT_LONGONLY
