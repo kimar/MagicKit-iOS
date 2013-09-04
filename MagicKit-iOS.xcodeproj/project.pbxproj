@@ -9,6 +9,44 @@
 /* Begin PBXBuildFile section */
 		2AC1D40217D725ED00F383B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC1D40117D725ED00F383B5 /* Foundation.framework */; };
 		2AC1D40817D725ED00F383B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1D40617D725ED00F383B5 /* InfoPlist.strings */; };
+		2AC1D45C17D7264700F383B5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC1D45B17D7264700F383B5 /* libz.dylib */; };
+		2AC1D45E17D7264B00F383B5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AC1D45D17D7264B00F383B5 /* MobileCoreServices.framework */; };
+		2AC1D49617D72B8A00F383B5 /* apprentice.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D46F17D72B8A00F383B5 /* apprentice.c */; };
+		2AC1D49717D72B8A00F383B5 /* apptype.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47017D72B8A00F383B5 /* apptype.c */; };
+		2AC1D49817D72B8A00F383B5 /* ascmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47117D72B8A00F383B5 /* ascmagic.c */; };
+		2AC1D49917D72B8A00F383B5 /* asprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47217D72B8A00F383B5 /* asprintf.c */; };
+		2AC1D49B17D72B8A00F383B5 /* cdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47417D72B8A00F383B5 /* cdf.c */; };
+		2AC1D49C17D72B8A00F383B5 /* cdf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47517D72B8A00F383B5 /* cdf.h */; };
+		2AC1D49D17D72B8A00F383B5 /* cdf_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47617D72B8A00F383B5 /* cdf_time.c */; };
+		2AC1D49E17D72B8A00F383B5 /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47717D72B8A00F383B5 /* compress.c */; };
+		2AC1D49F17D72B8A00F383B5 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47817D72B8A00F383B5 /* config.h */; };
+		2AC1D4A117D72B8A00F383B5 /* elfclass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47A17D72B8A00F383B5 /* elfclass.h */; };
+		2AC1D4A217D72B8A00F383B5 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47B17D72B8A00F383B5 /* encoding.c */; };
+		2AC1D4A317D72B8A00F383B5 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47C17D72B8A00F383B5 /* file.c */; };
+		2AC1D4A417D72B8A00F383B5 /* file.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47D17D72B8A00F383B5 /* file.h */; };
+		2AC1D4A517D72B8A00F383B5 /* file_opts.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D47E17D72B8A00F383B5 /* file_opts.h */; };
+		2AC1D4A617D72B8A00F383B5 /* fsmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D47F17D72B8A00F383B5 /* fsmagic.c */; };
+		2AC1D4A717D72B8A00F383B5 /* funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48017D72B8A00F383B5 /* funcs.c */; };
+		2AC1D4A817D72B8A00F383B5 /* getopt_long.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48117D72B8A00F383B5 /* getopt_long.c */; };
+		2AC1D4A917D72B8A00F383B5 /* is_tar.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48217D72B8A00F383B5 /* is_tar.c */; };
+		2AC1D4AA17D72B8A00F383B5 /* magic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48317D72B8A00F383B5 /* magic.c */; };
+		2AC1D4AB17D72B8A00F383B5 /* magic.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48417D72B8A00F383B5 /* magic.h */; };
+		2AC1D4AC17D72B8A00F383B5 /* magic.mgc in Resources */ = {isa = PBXBuildFile; fileRef = 2AC1D48517D72B8A00F383B5 /* magic.mgc */; };
+		2AC1D4AD17D72B8A00F383B5 /* mygetopt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48617D72B8A00F383B5 /* mygetopt.h */; };
+		2AC1D4AE17D72B8A00F383B5 /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48717D72B8A00F383B5 /* print.c */; };
+		2AC1D4AF17D72B8A00F383B5 /* readcdf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48817D72B8A00F383B5 /* readcdf.c */; };
+		2AC1D4B017D72B8A00F383B5 /* readelf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48917D72B8A00F383B5 /* readelf.c */; };
+		2AC1D4B117D72B8A00F383B5 /* readelf.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48A17D72B8A00F383B5 /* readelf.h */; };
+		2AC1D4B217D72B8A00F383B5 /* softmagic.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48B17D72B8A00F383B5 /* softmagic.c */; };
+		2AC1D4B317D72B8A00F383B5 /* strlcat.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48C17D72B8A00F383B5 /* strlcat.c */; };
+		2AC1D4B417D72B8A00F383B5 /* strlcpy.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48D17D72B8A00F383B5 /* strlcpy.c */; };
+		2AC1D4B517D72B8A00F383B5 /* tar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D48E17D72B8A00F383B5 /* tar.h */; };
+		2AC1D4B617D72B8A00F383B5 /* vasprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D48F17D72B8A00F383B5 /* vasprintf.c */; };
+		2AC1D4B717D72B8A00F383B5 /* GEMagicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49117D72B8A00F383B5 /* GEMagicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC1D4B817D72B8A00F383B5 /* GEMagicKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D49217D72B8A00F383B5 /* GEMagicKit.m */; };
+		2AC1D4B917D72B8A00F383B5 /* GEMagicResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49317D72B8A00F383B5 /* GEMagicResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2AC1D4BA17D72B8A00F383B5 /* GEMagicResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC1D49417D72B8A00F383B5 /* GEMagicResult.m */; };
+		2AC1D4BB17D72B8A00F383B5 /* MagicKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC1D49517D72B8A00F383B5 /* MagicKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +55,46 @@
 		2AC1D40517D725ED00F383B5 /* MagicKit-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicKit-iOS-Info.plist"; sourceTree = "<group>"; };
 		2AC1D40717D725ED00F383B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2AC1D40917D725ED00F383B5 /* MagicKit-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicKit-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		2AC1D45B17D7264700F383B5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2AC1D45D17D7264B00F383B5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2AC1D46F17D72B8A00F383B5 /* apprentice.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apprentice.c; sourceTree = "<group>"; };
+		2AC1D47017D72B8A00F383B5 /* apptype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apptype.c; sourceTree = "<group>"; };
+		2AC1D47117D72B8A00F383B5 /* ascmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ascmagic.c; sourceTree = "<group>"; };
+		2AC1D47217D72B8A00F383B5 /* asprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asprintf.c; sourceTree = "<group>"; };
+		2AC1D47317D72B8A00F383B5 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		2AC1D47417D72B8A00F383B5 /* cdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf.c; sourceTree = "<group>"; };
+		2AC1D47517D72B8A00F383B5 /* cdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdf.h; sourceTree = "<group>"; };
+		2AC1D47617D72B8A00F383B5 /* cdf_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdf_time.c; sourceTree = "<group>"; };
+		2AC1D47717D72B8A00F383B5 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		2AC1D47817D72B8A00F383B5 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		2AC1D47917D72B8A00F383B5 /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		2AC1D47A17D72B8A00F383B5 /* elfclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elfclass.h; sourceTree = "<group>"; };
+		2AC1D47B17D72B8A00F383B5 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		2AC1D47C17D72B8A00F383B5 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file.c; sourceTree = "<group>"; };
+		2AC1D47D17D72B8A00F383B5 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		2AC1D47E17D72B8A00F383B5 /* file_opts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_opts.h; sourceTree = "<group>"; };
+		2AC1D47F17D72B8A00F383B5 /* fsmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fsmagic.c; sourceTree = "<group>"; };
+		2AC1D48017D72B8A00F383B5 /* funcs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = funcs.c; sourceTree = "<group>"; };
+		2AC1D48117D72B8A00F383B5 /* getopt_long.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = getopt_long.c; sourceTree = "<group>"; };
+		2AC1D48217D72B8A00F383B5 /* is_tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = is_tar.c; sourceTree = "<group>"; };
+		2AC1D48317D72B8A00F383B5 /* magic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = magic.c; sourceTree = "<group>"; };
+		2AC1D48417D72B8A00F383B5 /* magic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = magic.h; sourceTree = "<group>"; };
+		2AC1D48517D72B8A00F383B5 /* magic.mgc */ = {isa = PBXFileReference; lastKnownFileType = file; path = magic.mgc; sourceTree = "<group>"; };
+		2AC1D48617D72B8A00F383B5 /* mygetopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mygetopt.h; sourceTree = "<group>"; };
+		2AC1D48717D72B8A00F383B5 /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		2AC1D48817D72B8A00F383B5 /* readcdf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readcdf.c; sourceTree = "<group>"; };
+		2AC1D48917D72B8A00F383B5 /* readelf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = readelf.c; sourceTree = "<group>"; };
+		2AC1D48A17D72B8A00F383B5 /* readelf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = readelf.h; sourceTree = "<group>"; };
+		2AC1D48B17D72B8A00F383B5 /* softmagic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = softmagic.c; sourceTree = "<group>"; };
+		2AC1D48C17D72B8A00F383B5 /* strlcat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcat.c; sourceTree = "<group>"; };
+		2AC1D48D17D72B8A00F383B5 /* strlcpy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = strlcpy.c; sourceTree = "<group>"; };
+		2AC1D48E17D72B8A00F383B5 /* tar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tar.h; sourceTree = "<group>"; };
+		2AC1D48F17D72B8A00F383B5 /* vasprintf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = vasprintf.c; sourceTree = "<group>"; };
+		2AC1D49117D72B8A00F383B5 /* GEMagicKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEMagicKit.h; sourceTree = "<group>"; };
+		2AC1D49217D72B8A00F383B5 /* GEMagicKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEMagicKit.m; sourceTree = "<group>"; };
+		2AC1D49317D72B8A00F383B5 /* GEMagicResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEMagicResult.h; sourceTree = "<group>"; };
+		2AC1D49417D72B8A00F383B5 /* GEMagicResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEMagicResult.m; sourceTree = "<group>"; };
+		2AC1D49517D72B8A00F383B5 /* MagicKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MagicKit.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +102,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC1D45E17D7264B00F383B5 /* MobileCoreServices.framework in Frameworks */,
+				2AC1D45C17D7264700F383B5 /* libz.dylib in Frameworks */,
 				2AC1D40217D725ED00F383B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -51,6 +131,8 @@
 		2AC1D40017D725ED00F383B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2AC1D45D17D7264B00F383B5 /* MobileCoreServices.framework */,
+				2AC1D45B17D7264700F383B5 /* libz.dylib */,
 				2AC1D40117D725ED00F383B5 /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -59,6 +141,9 @@
 		2AC1D40317D725ED00F383B5 /* MagicKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2AC1D46E17D72B8A00F383B5 /* libmagic */,
+				2AC1D49017D72B8A00F383B5 /* MagicKit */,
+				2AC1D49517D72B8A00F383B5 /* MagicKit.h */,
 				2AC1D40417D725ED00F383B5 /* Supporting Files */,
 			);
 			path = "MagicKit-iOS";
@@ -74,6 +159,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2AC1D46E17D72B8A00F383B5 /* libmagic */ = {
+			isa = PBXGroup;
+			children = (
+				2AC1D46F17D72B8A00F383B5 /* apprentice.c */,
+				2AC1D47017D72B8A00F383B5 /* apptype.c */,
+				2AC1D47117D72B8A00F383B5 /* ascmagic.c */,
+				2AC1D47217D72B8A00F383B5 /* asprintf.c */,
+				2AC1D47317D72B8A00F383B5 /* AUTHORS */,
+				2AC1D47417D72B8A00F383B5 /* cdf.c */,
+				2AC1D47517D72B8A00F383B5 /* cdf.h */,
+				2AC1D47617D72B8A00F383B5 /* cdf_time.c */,
+				2AC1D47717D72B8A00F383B5 /* compress.c */,
+				2AC1D47817D72B8A00F383B5 /* config.h */,
+				2AC1D47917D72B8A00F383B5 /* COPYING */,
+				2AC1D47A17D72B8A00F383B5 /* elfclass.h */,
+				2AC1D47B17D72B8A00F383B5 /* encoding.c */,
+				2AC1D47C17D72B8A00F383B5 /* file.c */,
+				2AC1D47D17D72B8A00F383B5 /* file.h */,
+				2AC1D47E17D72B8A00F383B5 /* file_opts.h */,
+				2AC1D47F17D72B8A00F383B5 /* fsmagic.c */,
+				2AC1D48017D72B8A00F383B5 /* funcs.c */,
+				2AC1D48117D72B8A00F383B5 /* getopt_long.c */,
+				2AC1D48217D72B8A00F383B5 /* is_tar.c */,
+				2AC1D48317D72B8A00F383B5 /* magic.c */,
+				2AC1D48417D72B8A00F383B5 /* magic.h */,
+				2AC1D48517D72B8A00F383B5 /* magic.mgc */,
+				2AC1D48617D72B8A00F383B5 /* mygetopt.h */,
+				2AC1D48717D72B8A00F383B5 /* print.c */,
+				2AC1D48817D72B8A00F383B5 /* readcdf.c */,
+				2AC1D48917D72B8A00F383B5 /* readelf.c */,
+				2AC1D48A17D72B8A00F383B5 /* readelf.h */,
+				2AC1D48B17D72B8A00F383B5 /* softmagic.c */,
+				2AC1D48C17D72B8A00F383B5 /* strlcat.c */,
+				2AC1D48D17D72B8A00F383B5 /* strlcpy.c */,
+				2AC1D48E17D72B8A00F383B5 /* tar.h */,
+				2AC1D48F17D72B8A00F383B5 /* vasprintf.c */,
+			);
+			path = libmagic;
+			sourceTree = SOURCE_ROOT;
+		};
+		2AC1D49017D72B8A00F383B5 /* MagicKit */ = {
+			isa = PBXGroup;
+			children = (
+				2AC1D49117D72B8A00F383B5 /* GEMagicKit.h */,
+				2AC1D49217D72B8A00F383B5 /* GEMagicKit.m */,
+				2AC1D49317D72B8A00F383B5 /* GEMagicResult.h */,
+				2AC1D49417D72B8A00F383B5 /* GEMagicResult.m */,
+			);
+			path = MagicKit;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -81,6 +217,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC1D4BB17D72B8A00F383B5 /* MagicKit.h in Headers */,
+				2AC1D4B917D72B8A00F383B5 /* GEMagicResult.h in Headers */,
+				2AC1D4B717D72B8A00F383B5 /* GEMagicKit.h in Headers */,
+				2AC1D49C17D72B8A00F383B5 /* cdf.h in Headers */,
+				2AC1D49F17D72B8A00F383B5 /* config.h in Headers */,
+				2AC1D4A117D72B8A00F383B5 /* elfclass.h in Headers */,
+				2AC1D4A417D72B8A00F383B5 /* file.h in Headers */,
+				2AC1D4A517D72B8A00F383B5 /* file_opts.h in Headers */,
+				2AC1D4AB17D72B8A00F383B5 /* magic.h in Headers */,
+				2AC1D4AD17D72B8A00F383B5 /* mygetopt.h in Headers */,
+				2AC1D4B117D72B8A00F383B5 /* readelf.h in Headers */,
+				2AC1D4B517D72B8A00F383B5 /* tar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC1D40817D725ED00F383B5 /* InfoPlist.strings in Resources */,
+				2AC1D4AC17D72B8A00F383B5 /* magic.mgc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +306,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n";
+			shellScript = "set -e\n\nset +u\nif [[ $UFW_MASTER_SCRIPT_RUNNING ]]\nthen\n    # Nothing for the slave script to do\n    exit 0\nfi\nset -u\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\n    UFW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find platform name from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\n\tUFW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\n    echo \"Could not find sdk version  from SDK_NAME: $SDK_NAME\"\n    exit 1\nfi\n\nif [[ \"$UFW_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\n    UFW_OTHER_PLATFORM=iphonesimulator\nelse\n    UFW_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$UFW_SDK_PLATFORM$ ]]\nthen\n    UFW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${UFW_OTHER_PLATFORM}\"\nelse\n    echo \"Could not find $UFW_SDK_PLATFORM in $BUILT_PRODUCTS_DIR\"\n    exit 1\nfi\n\nONLY_ACTIVE_PLATFORM=${ONLY_ACTIVE_PLATFORM:-$ONLY_ACTIVE_ARCH}\n\n# Short-circuit if all binaries are up to date\n\nif [[ -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n   [[ -f \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n   [[ ! \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n  ([[ \"${ONLY_ACTIVE_PLATFORM}\" == \"YES\" ]] || \\\n    ([[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && \\\n     [[ -f \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]] && \\\n     [[ ! \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" -nt \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework/${EXECUTABLE_PATH}\" ]]\n    )\n  )\nthen\n    exit 0\nfi\n\n\n# Clean other platform if needed\n\nif [[ ! -f \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\" ]] && [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n\techo \"Platform \\\"$UFW_SDK_PLATFORM\\\" was cleaned recently. Cleaning \\\"$UFW_OTHER_PLATFORM\\\" as well\"\n\techo xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\n\txcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${UFW_OTHER_PLATFORM}${UFW_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" CONFIGURATION_TEMP_DIR=\"${PROJECT_TEMP_DIR}/${CONFIGURATION}-${UFW_OTHER_PLATFORM}\" clean\nfi\n\n\n# Make sure we are building from fresh binaries\n\nrm -rf \"${BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\nrm -rf \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\n\nif [[ \"${ONLY_ACTIVE_PLATFORM}\" != \"YES\" ]]\nthen\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${EXECUTABLE_PATH}\"\n    rm -rf \"${UFW_OTHER_BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.embeddedframework\"\nfi\n\n\n";
 		};
 		2AC1D3FB17D725ED00F383B5 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -192,6 +341,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AC1D49617D72B8A00F383B5 /* apprentice.c in Sources */,
+				2AC1D49717D72B8A00F383B5 /* apptype.c in Sources */,
+				2AC1D49817D72B8A00F383B5 /* ascmagic.c in Sources */,
+				2AC1D49917D72B8A00F383B5 /* asprintf.c in Sources */,
+				2AC1D49B17D72B8A00F383B5 /* cdf.c in Sources */,
+				2AC1D49D17D72B8A00F383B5 /* cdf_time.c in Sources */,
+				2AC1D49E17D72B8A00F383B5 /* compress.c in Sources */,
+				2AC1D4A217D72B8A00F383B5 /* encoding.c in Sources */,
+				2AC1D4A317D72B8A00F383B5 /* file.c in Sources */,
+				2AC1D4A617D72B8A00F383B5 /* fsmagic.c in Sources */,
+				2AC1D4A717D72B8A00F383B5 /* funcs.c in Sources */,
+				2AC1D4A817D72B8A00F383B5 /* getopt_long.c in Sources */,
+				2AC1D4A917D72B8A00F383B5 /* is_tar.c in Sources */,
+				2AC1D4AA17D72B8A00F383B5 /* magic.c in Sources */,
+				2AC1D4AE17D72B8A00F383B5 /* print.c in Sources */,
+				2AC1D4AF17D72B8A00F383B5 /* readcdf.c in Sources */,
+				2AC1D4B017D72B8A00F383B5 /* readelf.c in Sources */,
+				2AC1D4B217D72B8A00F383B5 /* softmagic.c in Sources */,
+				2AC1D4B317D72B8A00F383B5 /* strlcat.c in Sources */,
+				2AC1D4B417D72B8A00F383B5 /* strlcpy.c in Sources */,
+				2AC1D4B617D72B8A00F383B5 /* vasprintf.c in Sources */,
+				2AC1D4B817D72B8A00F383B5 /* GEMagicKit.m in Sources */,
+				2AC1D4BA17D72B8A00F383B5 /* GEMagicResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,12 +441,16 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicKit-iOS/MagicKit-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "HAVE_CONFIG_H=1";
 				INFOPLIST_FILE = "MagicKit-iOS/MagicKit-iOS-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = framework;
@@ -288,11 +464,14 @@
 					armv6,
 					"$(ARCHS_STANDARD_32_BIT)",
 				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicKit-iOS/MagicKit-iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "HAVE_CONFIG_H=1";
 				INFOPLIST_FILE = "MagicKit-iOS/MagicKit-iOS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -319,6 +498,7 @@
 				2AC1D40E17D725ED00F383B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
