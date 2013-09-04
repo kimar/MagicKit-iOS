@@ -1,11 +1,11 @@
 MagicKit-iOS.framework
 ========
 
-`MagicKit-iOS.framework`is originally derived from [`MagicKit.framework`](https://github.com/aidansteele/MagicKit).
+Now using file v.1.144 2013/02/18
 
 `MagicKit-iOS.framework` is an easy-to-use wrapper around the [`libmagic`](http://www.darwinsys.com/file/) file identification library. It provides a high-level Objective-C interface and deals in Foundation types (NSString, NSData, et al).
 
-`MagicKit-iOS.framework` is available for both OS X (as a framework) or iOS as a static library with header files. `MagicKit-iOS.framework` consists of a master class, `GEMagicKit`, and an intermediary class, `GEMagicResult`. The `GEMagicKit` master class has six class methods, listed below in descending order of convenience.
+`MagicKit-iOS.framework` is available for iOS as a Universal Framework with header files. `MagicKit-iOS.framework` consists of a master class, `GEMagicKit`, and an intermediary class, `GEMagicResult`. The `GEMagicKit` master class has six class methods, listed below in descending order of convenience.
 
     + (GEMagicResult *)magicForFileAtPath:(NSString *)path;
     + (GEMagicResult *)magicForFileAtURL:(NSURL *)aURL;
